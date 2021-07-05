@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-repeat: no-repeat;
     font-family: 'Nunito', sans-serif;
+    background-color: rgb(236, 232, 232);
 }
 
 h1{
@@ -42,14 +43,16 @@ h2{
 }
 a{
     margin-left: 5%;
-    padding: 15px;
     background-image: linear-gradient(rgb(128, 218, 253),rgb(0, 137, 190));
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 16px;
+}
+a:hover{
+    background-image: linear-gradient(rgb(0, 137, 190),rgb(128, 218, 253));
 }
 
 .sec{
@@ -62,20 +65,47 @@ a{
     background-size: cover;
 }
 
-.abouthead{
+.head{
     text-align: center;
     color: rgb(59, 59, 59);
 }
 
 .aboutpara{
-    padding-left: 5%;
+    padding: 0 5%;
     font-size: 28px;
     color: rgb(73, 73, 73);
     text-align: justify;
-    padding-right: 5%;
 }
 
 #contactbtn{
     background-image: linear-gradient(rgb(158, 248, 226),rgb(161, 247, 0));
     color: black;
 }
+#contactbtn:hover{
+    background-image: linear-gradient(rgb(161, 247, 0),rgb(158, 248, 226));
+}
+.myrecipeintro{
+    text-align: center;
+    padding: 0 20% 20px;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+}
+.card {
+    background-color: white;
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.425);
+    border-radius: 8%;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+  }
+
+  .foodimg{
+      padding:15px;      
+  }
+ .item {
+    width: 270px;
+    height: 180px;
+    border-radius: 8%;
+    object-fit:cover;
+  }
