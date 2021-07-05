@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    padding-left: 5%;
+    color: rgb(19, 19, 19);
+}
+h2{
+    font-size: 40px;
+    padding-left: 5%;
+}
+
+.flexclass{
+    display: flex ;
+}
+
+.introtext{
+    text-align: left;
+}   
+.intropara{
+    padding-left: 5%;
+    font-size: 28px;
+    color: rgb(31, 31, 31);
+}
+.wid50{
+    width: 50%;
+}
+.img1{
+    width: 700px;
+}
+.img2{
+    height: 450px;
+}
+.highlight{
+    color: blueviolet;
+}
+a{
+    margin-left: 5%;
+    padding: 15px;
+    background-image: linear-gradient(rgb(128, 218, 253),rgb(0, 137, 190));
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
