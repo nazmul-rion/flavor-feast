@@ -34,6 +34,7 @@ h2{
     width: 700px;
 }
 .img2{
+    margin-top: 5%;
     height: 450px;
 }
 .highlight{
@@ -49,4 +50,32 @@ a{
     text-align: center;
     text-decoration: none;
     border-radius: 16px;
+}
+
+.sec{
+    margin-bottom: 150px;
+}
+
+#aboutsec{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abouthead{
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
+
+.aboutpara{
+    padding-left: 5%;
+    font-size: 28px;
+    color: rgb(73, 73, 73);
+    text-align: justify;
+    padding-right: 5%;
+}
+
+#contactbtn{
+    background-image: linear-gradient(rgb(158, 248, 226),rgb(161, 247, 0));
+    color: black;
 }
